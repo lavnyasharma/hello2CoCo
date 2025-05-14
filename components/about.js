@@ -11,7 +11,7 @@ export default function About() {
 
         <div className="grid md:grid-cols-2 gap-12">
           <div className="p-6 md:p-8 rounded-xl bg-white dark:bg-slate-800 shadow-lg border border-slate-100 dark:border-slate-700">
-        <div class="w-24 h-24 relative w-full">
+        <div class=" mb-6 h-24 relative w-64">
 
   <Image
     src="/assets/images/icons/channels4_profile 1.svg"
@@ -50,7 +50,7 @@ export default function About() {
           </div>
 
           <div className="p-6 md:p-8 rounded-xl bg-white dark:bg-slate-800 shadow-lg border border-slate-100 dark:border-slate-700">
-<div class="mb-6  relative w-full">
+<div class="mb-6 h-24 relative w-64">
   <Image
     src="/assets/images/icons/Group 1000004230.svg"
     alt="CoRover graphic"

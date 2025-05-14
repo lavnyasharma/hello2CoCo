@@ -4,6 +4,7 @@ import { useState, useEffect } from "react"
 import Link from "next/link"
 import { Menu, X } from "lucide-react"
 import ThemeToggle from "@/components/theme-toggle"
+import Image from "next/image"
 
 export default function Navbar({ openContactModal }) {
   const [isOpen, setIsOpen] = useState(false)
@@ -43,7 +44,17 @@ export default function Navbar({ openContactModal }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <div className="flex-shrink-0 flex items-center">
-            <span className="text-2xl font-bold text-blue-600 dark:text-blue-400">Hello2CoCo</span>
+<div className="relative w-48 h-48 m-4">
+  <Image
+    src="/assets/images/icons/png-high-res 1 (1).png"
+    alt="CIL graphic"
+    layout="fill"
+    objectFit="contain"
+    className="rounded-2xl"
+  />
+</div>
+
+
           </div>
 
           {/* Desktop menu */}
