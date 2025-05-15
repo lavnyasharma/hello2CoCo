@@ -44,15 +44,17 @@ export default function Navbar({ openContactModal }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <div className="flex-shrink-0 flex items-center">
-<div className="relative w-48 h-48 m-4">
+<div className="relative w-24 h-24 lg:w-48 lg:h-48 m-0 lg:m-4">
   <Image
     src="/assets/images/icons/png-high-res 1 (1).png"
     alt="CIL graphic"
     layout="fill"
     objectFit="contain"
-    className="rounded-2xl"
+    className="rounded-2xl pr-0 lg:p-7"
   />
 </div>
+
+
 
 
           </div>
